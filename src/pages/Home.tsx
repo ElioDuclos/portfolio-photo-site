@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Gallery from '../components/Gallery';
 
@@ -36,12 +37,12 @@ export default function Home() {
           >
             Voir la galerie
           </a>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-gray-900 transition-all duration-300"
           >
             Me contacter
-          </a>
+          </Link>
         </motion.div>
       </motion.header>
 
