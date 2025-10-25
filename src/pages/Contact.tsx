@@ -37,11 +37,9 @@ export default function Contact() {
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
               <Mail className="w-6 h-6 text-gray-600" />
-              <span className="text-gray-600">contact@studio-photo.com</span>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Phone className="w-6 h-6 text-gray-600" />
-              <span className="text-gray-600">+33 1 23 45 67 89</span>
+              <a href="mailto:elioduclos@gmail.com" className="text-gray-600 hover:text-gray-900 transition">
+                elioduclos@gmail.com
+              </a>
             </div>
             
             <div className="pt-6 border-t border-gray-200">
