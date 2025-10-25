@@ -53,3 +53,16 @@ To view contact form submissions:
 - ✅ Form reset after successful submission
 - ✅ Disabled inputs during submission
 - ✅ Secure data storage with RLS policies
+- ✅ Server-side validation (length limits, email format)
+
+## Security Considerations
+
+The Supabase RLS policies include:
+- Email format validation using regex
+- Field length limits (name: 100 chars, email: 255 chars, message: 5000 chars)
+- Anonymous insert-only access (users cannot read others' submissions)
+
+For additional protection against spam, consider:
+- Implementing rate limiting at the application level
+- Adding a CAPTCHA (e.g., Google reCAPTCHA, hCaptcha)
+- Setting up Supabase Edge Functions for more complex validation
