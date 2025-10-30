@@ -19,7 +19,6 @@ const categoryLabels: Record<Category, string> = {
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = React.useState<Category>('all');
   const [selectedPhoto, setSelectedPhoto] = React.useState<Photo | null>(null);
-  const [isLoading, setIsLoading] = React.useState(true);
 
   const filteredPhotos = React.useMemo(() => {
     return selectedCategory === 'all'
@@ -42,23 +41,6 @@ export default function Gallery() {
   useKey('ArrowRight', () => navigatePhoto('next'));
   useKey('ArrowLeft', () => navigatePhoto('prev'));
   useKey('Escape', () => setSelectedPhoto(null));
-
-  React.useEffect(() => {
-    const loadImages = async () => {
-      const imagePromises = photos.map(photo => {
-        return new Promise((resolve) => {
-          const img = new Image();
-          img.src = photo.url;
-          img.onload = resolve;
-        });
-      });
-
-      await Promise.all(imagePromises);
-      setIsLoading(false);
-    };
-
-    loadImages();
-  }, []);
 
   const breakpointColumns = {
     default: 3,
@@ -88,15 +70,6 @@ export default function Gallery() {
           </button>
         ))}
       </motion.div>
-
-      {/* Loading State */}
-      {isLoading && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[...Array(6)].map((_, i) => (
-            <div key={i} className="aspect-[3/4] bg-gray-200 rounded-lg animate-pulse" />
-          ))}
-        </div>
-      )}
 
       {/* Photo Grid */}
       <AnimatePresence mode="wait">
@@ -192,6 +165,7 @@ function PhotoCard({ photo, onClick }: { photo: Photo; onClick: () => void }) {
     triggerOnce: true,
     threshold: 0.1,
   });
+  const [imageLoaded, setImageLoaded] = React.useState(false);
 
   return (
     <motion.div
@@ -207,11 +181,18 @@ function PhotoCard({ photo, onClick }: { photo: Photo; onClick: () => void }) {
         transition={{ duration: 0.3 }}
         className="relative"
       >
+        {!imageLoaded && (
+          <div className="absolute inset-0 bg-gray-200 rounded-lg animate-pulse" />
+        )}
         <img
           src={photo.url}
           alt={photo.title}
-          className="w-full h-auto rounded-lg"
+          className={`w-full h-auto rounded-lg transition-opacity duration-300 ${
+            imageLoaded ? 'opacity-100' : 'opacity-0'
+          }`}
           style={{ pointerEvents: 'none' }}
+          loading="lazy"
+          onLoad={() => setImageLoaded(true)}
         />
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end justify-start p-4 opacity-0 group-hover:opacity-100">
           <div className="text-white">
