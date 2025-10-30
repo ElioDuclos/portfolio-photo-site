@@ -52,7 +52,7 @@ export const photos: Photo[] = [
   {
     id: 5,
     url: "/20240405-204458--Elio Duclos.jpg",
-    category: "architecture",
+    category: "street",
     title: "Serments d'Amour",
     description: "Les cadenas colorés du Pont des Arts à Paris",
     metadata: {
@@ -184,7 +184,7 @@ export const photos: Photo[] = [
   {
     id: 16,
     url: "/20240903-011802-Elio-Duclos.jpg",
-    category: "street",
+    category: "portrait",
     title: "DJ en Action",
     description: "Portrait de dos d'un technicien du son au travail",
     metadata: {

@@ -41,26 +41,37 @@ export default function About() {
             Mon Approche
           </h2>
           <p className="text-gray-600 mb-6">
-            Je crois en la puissance de l'image pour raconter des histoires uniques et capturer
-            l'essence de chaque moment. Ma passion pour la photographie m'a conduit à explorer
-            différents styles et techniques, toujours à la recherche de la perfection dans
-            chaque cliché.
+            Etudiant-Ingénieur en énergies renouvelables (CentraleSupélec - KTH), 
+            photographe par passion.
+
+            Depuis trois ans, je capture le monde à travers mon objectif, transformant 
+            l'ordinaire en extraordinaire. De mon passage à l'association Pics de 
+            CentraleSupélec — d'abord apprenti, puis vice-président — j'ai développé 
+            un regard qui cherche constamment ce qui se cache derrière l'évidence.
+
+            La photographie m'a appris à voir différemment. Chaque cliché est une 
+            exploration : des rues de Paris aux forêts suédoises, des événements 
+            éphémères aux paysages intemporels. J'aime capturer ce moment suspendu 
+            où la réalité bascule vers quelque chose de plus grand, de plus mystérieux.
+
+            Entre perspectives architecturales, jeux de lumière et compositions 
+            spontanées, mes images racontent des histoires qui dépassent leur 
+            propre sujet. La photographie de rue, le paysage et l'événementiel 
+            sont mes terrains de jeu, le réalisme teinté de surréel est ma 
+            signature.
+
+            Bienvenue dans mon univers visuel.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
               <Camera className="w-8 h-8 mx-auto text-gray-700" />
-              <h3 className="mt-2 text-lg font-medium text-gray-900">Expertise</h3>
-              <p className="mt-1 text-sm text-gray-500">15+ années d'expérience</p>
-            </div>
-            <div className="text-center">
-              <Award className="w-8 h-8 mx-auto text-gray-700" />
-              <h3 className="mt-2 text-lg font-medium text-gray-900">Récompenses</h3>
-              <p className="mt-1 text-sm text-gray-500">Multiples prix internationaux</p>
+              <h3 className="mt-2 text-lg font-medium text-gray-900">Domaine</h3>
+              <p className="mt-1 text-sm text-gray-500">Photos de rue, paysage, événementiel</p>
             </div>
             <div className="text-center">
               <Users className="w-8 h-8 mx-auto text-gray-700" />
               <h3 className="mt-2 text-lg font-medium text-gray-900">Clients</h3>
-              <p className="mt-1 text-sm text-gray-500">500+ projets réalisés</p>
+              <p className="mt-1 text-sm text-gray-500">50+ projets réalisés</p>
             </div>
           </div>
         </motion.div>
