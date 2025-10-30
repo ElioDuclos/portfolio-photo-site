@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Camera, Award, Users } from 'lucide-react';
+import { Camera, Users } from 'lucide-react';
 
 export default function About() {
   return (
