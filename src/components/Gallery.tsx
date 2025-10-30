@@ -7,6 +7,15 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { Category, Photo } from '../types';
 import { photos, categories } from '../data/photos';
 
+const categoryLabels: Record<Category, string> = {
+  'all': 'Toutes',
+  'portrait': 'Portrait',
+  'paysage': 'Paysage',
+  'architecture': 'Architecture',
+  'street': 'Street',
+  'corporate': 'Corporate'
+};
+
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = React.useState<Category>('all');
   const [selectedPhoto, setSelectedPhoto] = React.useState<Photo | null>(null);
@@ -75,7 +84,7 @@ export default function Gallery() {
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
             }`}
           >
-            {category.charAt(0).toUpperCase() + category.slice(1)}
+            {categoryLabels[category]}
           </button>
         ))}
       </motion.div>
