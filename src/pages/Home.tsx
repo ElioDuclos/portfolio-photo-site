@@ -17,11 +17,10 @@ export default function Home() {
           transition={{ delay: 0.2 }}
         >
           <h1 className="text-4xl font-light tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-            Capturant l'essence des{' '}
-            <span className="font-normal text-black">moments</span>
+            L'exploration au coeur de la photographie
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-            Une collection de photographies uniques racontant des histoires visuelles
+            Explorer ce que les yeux ne voient pas.
           </p>
         </motion.div>
 

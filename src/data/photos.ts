@@ -245,7 +245,7 @@ export const photos: Photo[] = [
     id: 21,
     url: "/20240419-091711--Elio Duclos.jpg",
     category: "paysage",
-    title: "Vallée de l'Ardèche'",
+    title: "Vallée de l'Ardèche",
     description: "Vue aérienne sur les méandres d'une rivière",
     metadata: {
       camera: "DJI Mavic Pro 2 Hasselblad",

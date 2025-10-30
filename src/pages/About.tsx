@@ -37,29 +37,26 @@ export default function About() {
           transition={{ delay: 0.4 }}
           className="flex flex-col justify-center"
         >
-          <h2 className="text-3xl font-light text-gray-900 mb-6">
-            Mon Approche
-          </h2>
           <p className="text-gray-600 mb-6">
             Etudiant-Ingénieur en énergies renouvelables (CentraleSupélec - KTH), 
             photographe par passion.
-
+            <br />
             Depuis trois ans, je capture le monde à travers mon objectif, transformant 
             l'ordinaire en extraordinaire. De mon passage à l'association Pics de 
             CentraleSupélec — d'abord apprenti, puis vice-président — j'ai développé 
             un regard qui cherche constamment ce qui se cache derrière l'évidence.
-
+            <br />
             La photographie m'a appris à voir différemment. Chaque cliché est une 
             exploration : des rues de Paris aux forêts suédoises, des événements 
             éphémères aux paysages intemporels. J'aime capturer ce moment suspendu 
             où la réalité bascule vers quelque chose de plus grand, de plus mystérieux.
-
+            <br />
             Entre perspectives architecturales, jeux de lumière et compositions 
             spontanées, mes images racontent des histoires qui dépassent leur 
             propre sujet. La photographie de rue, le paysage et l'événementiel 
             sont mes terrains de jeu, le réalisme teinté de surréel est ma 
             signature.
-
+            <br />
             Bienvenue dans mon univers visuel.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
