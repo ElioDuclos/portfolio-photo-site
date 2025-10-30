@@ -11,4 +11,4 @@ export interface Photo {
   };
 }
 
-export type Category = 'all' | 'portrait' | 'paysage' | 'architecture' | 'street';
+export type Category = 'all' | 'portrait' | 'paysage' | 'architecture' | 'street' | 'corporate';

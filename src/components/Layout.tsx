@@ -14,7 +14,6 @@ export default function Layout() {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
                 <Camera className="h-8 w-8" />
-                <span className="text-xl font-light">Studio</span>
               </Link>
             </div>
 
