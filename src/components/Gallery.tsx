@@ -167,6 +167,10 @@ function PhotoCard({ photo, onClick }: { photo: Photo; onClick: () => void }) {
   });
   const [imageLoaded, setImageLoaded] = React.useState(false);
 
+  React.useEffect(() => {
+    setImageLoaded(false);
+  }, [photo.id]);
+
   return (
     <motion.div
       ref={ref}
