@@ -8,9 +8,9 @@ export const photos: Photo[] = [
     title: "Pyramide du Louvre",
     description: "La pyramide emblématique du Louvre illuminée de l'intérieur",
     metadata: {
-      camera: "Sony A7III",
-      lens: "24-70mm f/2.8",
-      settings: "f/4, 15s, ISO 640"
+      camera: "Canon EOS R6m2",
+      lens: "28-70mm f/1.2",
+      settings: "f/2.0, 1/125s, ISO 1600"
     }
   },
   {
