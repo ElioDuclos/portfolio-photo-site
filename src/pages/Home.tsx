@@ -16,11 +16,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          <h1 className="text-4xl font-light tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+          <h1 className="text-3xl font-light tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
             L'exploration au coeur de la photographie
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-            Explorer ce que les yeux ne voient pas.
+            Ce que les yeux ne voient pas.
           </p>
         </motion.div>
 
