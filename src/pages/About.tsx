@@ -41,21 +41,18 @@ export default function About() {
             Etudiant-Ingénieur en énergies renouvelables (CentraleSupélec - KTH), 
             photographe par passion.
             <br />
-            Depuis trois ans, je capture le monde à travers mon objectif, transformant 
-            l'ordinaire en extraordinaire. De mon passage à l'association Pics de 
-            CentraleSupélec — d'abord apprenti, puis vice-président — j'ai développé 
-            un regard qui cherche constamment ce qui se cache derrière l'évidence.
+            <br />
+            Formé à CentraleSupélec (Pics), je capture les histoires invisibles 
+            qui se cachent dans les rues, les paysages et les moments éphémères. 
+            Mon objectif : sublimer l'instant et révéler ce qui échappe au 
+            premier regard.
+            <br />
             <br />
             La photographie m'a appris à voir différemment. Chaque cliché est une 
             exploration : des rues de Paris aux forêts suédoises, des événements 
             éphémères aux paysages intemporels. J'aime capturer ce moment suspendu 
             où la réalité bascule vers quelque chose de plus grand, de plus mystérieux.
             <br />
-            Entre perspectives architecturales, jeux de lumière et compositions 
-            spontanées, mes images racontent des histoires qui dépassent leur 
-            propre sujet. La photographie de rue, le paysage et l'événementiel 
-            sont mes terrains de jeu, le réalisme teinté de surréel est ma 
-            signature.
             <br />
             Bienvenue dans mon univers visuel.
           </p>
