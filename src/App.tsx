@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-photo-site">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
