@@ -20,7 +20,7 @@ export default function Home() {
             L'exploration au coeur de la photographie
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-            Ce que les yeux ne voient pas.
+            Ce que les yeux ne voient pas
           </p>
         </motion.div>
 
