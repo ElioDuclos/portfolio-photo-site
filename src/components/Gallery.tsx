@@ -20,11 +20,20 @@ export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = React.useState<Category>('all');
   const [selectedPhoto, setSelectedPhoto] = React.useState<Photo | null>(null);
 
+  // Get the base URL from Vite's environment (e.g., '/portfolio-photo-site/' for GitHub Pages)
+  const baseUrl = import.meta.env.BASE_URL;
+
   const filteredPhotos = React.useMemo(() => {
-    return selectedCategory === 'all'
+    const photosToFilter = selectedCategory === 'all'
       ? photos
       : photos.filter(photo => photo.category === selectedCategory);
-  }, [selectedCategory]);
+    
+    // Prepend base URL to all photo URLs
+    return photosToFilter.map(photo => ({
+      ...photo,
+      url: `${baseUrl}${photo.url.startsWith('/') ? photo.url.slice(1) : photo.url}`
+    }));
+  }, [selectedCategory, baseUrl]);
 
   const currentIndex = selectedPhoto ? filteredPhotos.findIndex(p => p.id === selectedPhoto.id) : -1;
 
