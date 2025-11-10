@@ -27,7 +27,7 @@ export const photos: Photo[] = [
   },
   {
     id: 3,
-    url: "/20240405-202911--Elio Duclos.jpg",
+    url: "/20240405-202911--Elio%20Duclos.jpg",
     category: "street",
     title: "Filés de Lumière",
     description: "Paris en mouvement",
@@ -39,7 +39,7 @@ export const photos: Photo[] = [
   },
   {
     id: 4,
-    url: "/20240405-204357--Elio Duclos.jpg",
+    url: "/20240405-204357--Elio%20Duclos.jpg",
     category: "street",
     title: "L'échange nocturne",
     description: "Scène de vie nocturne dans les rues de Paris",
@@ -51,7 +51,7 @@ export const photos: Photo[] = [
   },
   {
     id: 5,
-    url: "/20240405-204458--Elio Duclos.jpg",
+    url: "/20240405-204458--Elio%20Duclos.jpg",
     category: "street",
     title: "Serments d'Amour",
     description: "Les cadenas colorés du Pont des Arts à Paris",
@@ -63,7 +63,7 @@ export const photos: Photo[] = [
   },
   {
     id: 6,
-    url: "/20240413-001905--Elio Duclos.jpg",
+    url: "/20240413-001905--Elio%20Duclos.jpg",
     category: "street",
     title: "Squelette Enflammé",
     description: "Art étudiant avec jeux de lumières colorées",
@@ -87,7 +87,7 @@ export const photos: Photo[] = [
   },
   {
     id: 8,
-    url: "/20240621-191855-2-Elio Duclos.jpg",
+    url: "/20240621-191855-2-Elio%20Duclos.jpg",
     category: "corporate",
     title: "Remise des Diplômes",
     description: "Moment de célébration lors d'une cérémonie de graduation CentraleSupélec",
@@ -99,7 +99,7 @@ export const photos: Photo[] = [
   },
   {
     id: 9,
-    url: "/20240903-012013--Elio Duclos.jpg",
+    url: "/20240903-012013--Elio%20Duclos.jpg",
     category: "street",
     title: "Boule Disco",
     description: "Ambiance nocturne avec boule à facettes illuminée",
@@ -111,7 +111,7 @@ export const photos: Photo[] = [
   },
   {
     id: 10,
-    url: "/20250207-205249--Elio Duclos.jpg",
+    url: "/20250207-205249--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Anomalie",
     description: "01000001 01101110 01101111 01101101 01100001 01101100 01101001 01100101",
@@ -123,7 +123,7 @@ export const photos: Photo[] = [
   },
   {
     id: 11,
-    url: "/20240416-171154--Elio Duclos.jpg",
+    url: "/20240416-171154--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Lumière sur Mousse",
     description: "Rayon de soleil illuminant la mousse en forêt",
@@ -147,7 +147,7 @@ export const photos: Photo[] = [
   },
   {
     id: 13,
-    url: "/20240528-143956--Elio Duclos.jpg",
+    url: "/20240528-143956--Elio%20Duclos.jpg",
     category: "architecture",
     title: "Guitare Suspendue",
     description: "La musique, symbole d'immuabilité, suspendue dans le temps et l'espace, capturée dans une composition architecturale intemporelle",
@@ -159,7 +159,7 @@ export const photos: Photo[] = [
   },
   {
     id: 14,
-    url: "/20240528-152747--Elio Duclos.jpg",
+    url: "/20240528-152747--Elio%20Duclos.jpg",
     category: "architecture",
     title: "Salle Abandonnée",
     description: "Atmosphère mélancolique d'un lieu déserté",
@@ -195,7 +195,7 @@ export const photos: Photo[] = [
   },
   {
     id: 17,
-    url: "/20250207-211220--Elio Duclos.jpg",
+    url: "/20250207-211220--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Spirales de Lumière",
     description: "Light painting bicolore dans la forêt nocturne",
@@ -207,7 +207,7 @@ export const photos: Photo[] = [
   },
   {
     id: 18,
-    url: "/20240416-162238--Elio Duclos.jpg",
+    url: "/20240416-162238--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Coléoptère Bleu",
     description: "Macro d'un insecte sur terrain sablonneux",
@@ -219,7 +219,7 @@ export const photos: Photo[] = [
   },
   {
     id: 19,
-    url: "/20240416-171510--Elio Duclos.jpg",
+    url: "/20240416-171510--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Tapis de Mousse",
     description: "Détail naturel de la végétation forestière",
@@ -231,7 +231,7 @@ export const photos: Photo[] = [
   },
   {
     id: 20,
-    url: "/20240418-105623--Elio Duclos.jpg",
+    url: "/20240418-105623--Elio%20Duclos.jpg",
     category: "architecture",
     title: "Maison de Pierre",
     description: "Architecture traditionnelle avec touche de couleur",
@@ -243,7 +243,7 @@ export const photos: Photo[] = [
   },
   {
     id: 21,
-    url: "/20240419-091711--Elio Duclos.jpg",
+    url: "/20240419-091711--Elio%20Duclos.jpg",
     category: "paysage",
     title: "Vallée de l'Ardèche",
     description: "Vue aérienne sur les méandres d'une rivière",
@@ -255,7 +255,7 @@ export const photos: Photo[] = [
   },
   {
     id: 22,
-    url: "/20240420-073956--Elio Duclos.jpg",
+    url: "/20240420-073956--Elio%20Duclos.jpg",
     category: "architecture",
     title: "Fenêtre du Château",
     description: "Intérieur médiéval avec vue sur les montagnes",
@@ -279,7 +279,7 @@ export const photos: Photo[] = [
   },
   {
     id: 24,
-    url: "/20241005-084508--Elio Duclos.jpg",
+    url: "/20241005-084508--Elio%20Duclos.jpg",
     category: "architecture",
     title: "Le café de Schrödinger",
     description: "Une pause café entre deux mondes",
@@ -291,7 +291,7 @@ export const photos: Photo[] = [
   },
   {
     id: 25,
-    url: "/20241005-133248--Elio Duclos.jpg",
+    url: "/20241005-133248--Elio%20Duclos.jpg",
     category: "corporate",
     title: "Événement IDEA",
     description: "Networking lors d'un événement professionnel",
